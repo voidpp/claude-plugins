@@ -22,7 +22,6 @@ async def test_days():
     assert result[0].temperature.min is not None
     assert result[0].temperature.max is not None
     assert result[0].day is not None
-    assert 0
 
 
 @pytest.mark.asyncio
